@@ -1,0 +1,79 @@
+body{
+    text-align: center;
+    background-color: rgb(228, 225, 224);
+}
+
+h1{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 35px;
+}
+
+#survey-form{
+    max-width: 50%;
+    background-color: cornsilk;
+    margin: 50px auto;
+    padding: 35px 25px;
+    border-radius: 15px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.form-control{
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+.form-control label{
+    display: block;
+    margin-bottom: 10px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.form-control input, select, textarea{
+    width: 95%;
+    display: block;
+    border: 1px solid black;
+    padding: 8px;
+    border-radius: 8px;
+    outline: none;
+}
+
+.form-control input{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+select{
+    width: 98%;
+}
+
+textarea{
+    resize: none;
+}
+
+.form-control input[type="radio"], .form-control input[type="checkbox"] {
+    display: inline-block;
+    width: auto;
+}
+
+.form-control select:hover, .form-control input[type="radio"]:hover, .form-control input[type="checkbox"]:hover {
+    cursor: pointer;
+}
+
+.btn{
+    background-color: #ff4b4b;
+    border: 1px solid black;
+    border-radius: 8px;    
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    display: block;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+
+
