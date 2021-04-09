@@ -30,7 +30,7 @@ h1{
 
 .form-control input, select, textarea{
     width: 95%;
-    display: block;
+    box-sizing: border-box;
     border: 1px solid black;
     padding: 8px;
     border-radius: 8px;
@@ -39,10 +39,6 @@ h1{
 
 .form-control input{
     font-family: 'Ubuntu', sans-serif;
-}
-
-select{
-    width: 98%;
 }
 
 textarea{
