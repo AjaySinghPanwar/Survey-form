@@ -1,2 +1,3 @@
-This is a Survey Form for a hypothetical chicken shop made with the help of html and css.
-<a>Live Demo</a>
+This project is made entirely with the help of html and css.
+* It shows a simple frontend version of a survey form for a hypothetical ready made chicken shop.
+* Live Demo - <a href="https://ajaysinghpanwar.github.io/Survey-form/">Survey Form</a>
